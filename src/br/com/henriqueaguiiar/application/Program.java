@@ -1,12 +1,17 @@
 package br.com.henriqueaguiiar.application;
 
-import boardgame.Board;
+import br.com.henriqueaguiiar.boardgame.Board;
+import br.com.henriqueaguiiar.chess.ChessMatch;
 
 public class Program {
     public static void main(String[] args) {
 
-        Board board = new Board(8,8);
 
-        System.out.println(board);
+        ChessMatch chessMatch = new ChessMatch();
+        UI.printBoard(chessMatch.getPieces());
+
+
+
+
     }
 }

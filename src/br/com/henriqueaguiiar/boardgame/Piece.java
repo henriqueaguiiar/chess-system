@@ -1,4 +1,4 @@
-package boardgame;
+package br.com.henriqueaguiiar.boardgame;
 
 public class Piece {
 
