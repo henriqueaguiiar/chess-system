@@ -1,6 +1,5 @@
 package br.com.henriqueaguiiar.application;
 
-import br.com.henriqueaguiiar.boardgame.Board;
 import br.com.henriqueaguiiar.chess.ChessMatch;
 
 public class Program {
@@ -9,7 +8,6 @@ public class Program {
 
         ChessMatch chessMatch = new ChessMatch();
         UI.printBoard(chessMatch.getPieces());
-
 
 
 
